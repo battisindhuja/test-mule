@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="jenkins-test-project-7febFlow" doc:id="e0e324cf-5533-4f19-bd13-6af5500b7040" >
 		<http:listener doc:name="Listener" doc:id="9009e112-87ce-47be-80ab-584cac38e93f" config-ref="HTTP_Listener_config" path="test"/>
 		<logger level="INFO" doc:name="Logger" doc:id="f7fce11a-50ce-4877-bb70-0128a3d725b1" message="**dummy payload**"/>
-		<set-payload value="**hi there,good morning-22222**" doc:name="Set Payload" doc:id="f155e342-8446-40e1-a155-f42102edff7f" />
+		<set-payload value="**hi there,good morning-33333**" doc:name="Set Payload" doc:id="f155e342-8446-40e1-a155-f42102edff7f" />
 	</flow>
 </mule>
